@@ -1,4 +1,4 @@
-Flask==2.0.3
-Werkzeug==2.0.3
-pandas==1.4.2
-numpy==1.21.0  # Asegúrate de que sea compatible con pandas
+Flask==2.2.3
+pandas==2.2.2
+numpy==1.23.5
+werkzeug==2.2.3
