@@ -1,3 +1,4 @@
 Flask==2.0.3
 Werkzeug==2.0.3
-pandas==1.4.2  # o la versión que necesites
+pandas==1.4.2
+numpy==1.21.0  # Asegúrate de que sea compatible con pandas
