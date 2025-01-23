@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /app
 
 # Copia los archivos de la aplicación al contenedor
-COPY . .
+COPY . /app  
 
 # Instala las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
