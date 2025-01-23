@@ -6,7 +6,7 @@ services:
     ports:
       - "5005:5005"  # Esto expone el puerto 5005 del contenedor al puerto 5005 del host
     volumes:
-      - .:/app  # Mapea tu directorio actual al contenedor (opcional)
+      - ./app  # Mapea tu directorio actual al contenedor (opcional)
     environment:
       - FLASK_APP=main.py  # Define el archivo principal de la app
       - FLASK_RUN_HOST=0.0.0.0  # Asegura que Flask escuche en todas las interfaces
